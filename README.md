@@ -1,7 +1,7 @@
 # algorithm
 <h1>algorithm matlab code</h1>
 <h2>appoint</h2>
-<p>
+<pre>
 % function [optim, val] =  appoint(C)
 % 本函数利于intlinprog实现指派问题的求解n*n的指派问题
 %   -optiom 最优解
@@ -12,10 +12,10 @@
 %  time : 2018/9/1
 %  email : 18902171131@189.cn
 %  githup: kangqianKTJU
-</p>
+</pre>
 </hr>
 <h2>chaos</h2>
-<p>
+<pre>
 %  迭代模型 x(i+1) = a*x(i)*(1-x(i))
 %  本函数用于演示震荡模型，产生蛛网模型的效果
 %  初值x0 -(0,1)
@@ -30,5 +30,5 @@
 %  time : 2018/9/1
 %  email : 18902171131@189.cn
 %  githup: kangqianKTJU
-</p>
+</pre>
 
