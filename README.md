@@ -52,3 +52,16 @@ alpha = 0.95;       % 冷却系数
 %  githup: kangqianKTJU
 </pre>
 
+</hr>
+<h2>Graph_Theory</h2>
+<pre>
+<ul>
+  <li>判断顶点可达与否</li>
+  <li>最短路问题——迪克斯特拉算法（Dijkstra)</li>
+  <li>有向图最短路的规划模型（Dijkstra)</li>
+</ul>
+%  authour :kkq
+%  time : 2018/9/11
+%  email : 18902171131@189.cn
+%  githup: kangqianKTJU
+</pre>
