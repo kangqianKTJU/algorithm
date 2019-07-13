@@ -65,3 +65,17 @@ alpha = 0.95;       % 冷却系数
 %  email : 18902171131@189.cn
 %  githup: kangqianKTJU
 </pre>
+
+
+</hr>
+<h2>heapSort</h2>
+<pre>
+<ul>
+  <li>shift--调整堆顺序</li>
+  <li>heap_sort--选取堆顶元素，重新调整，再选取，直至完全排完（Dijkstra)</li>
+</ul>
+%  authour :kkq
+%  time : 2019/7/13
+%  email : 18902171131@189.cn
+%  githup: kangqianKTJU
+</pre>
