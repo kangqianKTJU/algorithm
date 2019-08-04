@@ -26,6 +26,14 @@ public class MinNumberInRotateArray_6 {
             if(array[mid] > array[rightHigh]){
                 low = mid + 1;
             }else if(array[mid] == array[rightHigh]){
+                // 特俗情况的判断 1 0 1 1 1 1
+                if(array[mid] == array[low]){
+                    int min = array[0];
+                    for(int i = 0; i < array.length; i++){
+                        min = min < array[i] ? min:array[i];
+                    }
+                    return min;
+                }
                 --rightHigh;
             }else{
                 high = mid;
@@ -44,6 +52,13 @@ public class MinNumberInRotateArray_6 {
         int mid = 0;
         while(high - low > 1){
             mid = low + (high - low) / 2;
+            if(array[mid] == array[low] && array[mid] == array[high]){
+                int min = array[0];
+                for(int i = 0; i < array.length; i++){
+                    min = min < array[i] ? min:array[i];
+                }
+                return min;
+            }
             if(array[mid] >= array[low]){
                 low = mid;
             }else{
@@ -51,6 +66,14 @@ public class MinNumberInRotateArray_6 {
             }
         }
         return array[high];
+    }
+
+    public static void main(String[] args) {
+        MinNumberInRotateArray_6 solution = new MinNumberInRotateArray_6();
+        int[] arr = new int[]{1, 0, 1, 1 ,1};
+        System.out.println(solution.minNumberInRotateArray2(arr));
+        System.out.println(solution.minNumberInRotateArray(arr));
+
     }
 
     //3. 暴力法：略
