@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nowCoder/ComplicateLinkedClone_25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowCoder/HasPath_65.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowCoder/MovingCount_66.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowCoder/NumberOf1_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowCoder/RandomListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowCoder/Duplicate_50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowCoder/Duplicate_50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowCoder/FindPath_24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowCoder/FindPath_24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nowCoder/NumberOf1_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowCoder/NumberOf1_11.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nowCoder/NumberOf1_11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="304">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -172,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565226503444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565236413509" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -238,7 +232,7 @@
       <workItem from="1564920533230" duration="9147000" />
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
-      <workItem from="1565180449547" duration="6772000" />
+      <workItem from="1565180449547" duration="10022000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -261,11 +255,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564926416506</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="旋转数组的最小数字">
+      <created>1565231427500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565231427500</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48884000" />
+    <option name="totallyTimeSpent" value="52134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -476,8 +477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/NumberOf1_11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="304">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>
