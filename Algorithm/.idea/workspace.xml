@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nowCoder/FindKthToTail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowCoder/EntryNodeOfLoop_55.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -89,19 +89,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowCoder/ReOrderArray.java">
+        <entry file="file://$PROJECT_DIR$/src/nowCoder/ReOrderArray_13.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nowCoder/FindKthToTail_14.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nowCoder/FindKthToTail.java">
+        <entry file="file://$PROJECT_DIR$/src/nowCoder/EntryNodeOfLoop_55.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="296">
+              <caret line="48" selection-start-line="48" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -109,17 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/RuntimeException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="106" column="68" selection-start-line="104" selection-start-column="67" selection-end-line="106" selection-end-column="68" />
+            <state relative-caret-position="428">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
             </state>
           </provider>
         </entry>
@@ -186,6 +189,9 @@
         <option value="$PROJECT_DIR$/src/nowCoder/MaxInWindows_64.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/ReOrderArray.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/FindKthToTail.java" />
+        <option value="$PROJECT_DIR$/src/nowCoder/FindKthToTail_14.java" />
+        <option value="$PROJECT_DIR$/src/nowCoder/EntryNodeOfLoop.java" />
+        <option value="$PROJECT_DIR$/src/nowCoder/EntryNodeOfLoop_55.java" />
       </list>
     </option>
   </component>
@@ -236,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565405538019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565408662389" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -316,7 +322,7 @@
       <workItem from="1564920533230" duration="9147000" />
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
-      <workItem from="1565180449547" duration="36997000" />
+      <workItem from="1565180449547" duration="40161000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -367,17 +373,38 @@
       <option name="project" value="LOCAL" />
       <updated>1565403158690</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="获取链表的倒数第k个节点">
+      <created>1565405514221</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565405514221</updated>
+    </task>
+    <task id="LOCAL-00009" summary="调整数组是奇数位于偶数的前面">
+      <created>1565405606472</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565405606472</updated>
+    </task>
+    <task id="LOCAL-00010" summary="获取链表的倒数第k个节点">
+      <created>1565405649642</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565405649642</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79109000" />
+    <option name="totallyTimeSpent" value="82273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8667564" visible="true" weight="0.25385603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8667564" visible="true" weight="0.25385603" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,7 +444,9 @@
     <MESSAGE value="整数2进制表示中1的个数" />
     <MESSAGE value="求整数幂" />
     <MESSAGE value="重排数组，使得奇数为与偶数的前面" />
-    <option name="LAST_COMMIT_MESSAGE" value="重排数组，使得奇数为与偶数的前面" />
+    <MESSAGE value="调整数组是奇数位于偶数的前面" />
+    <MESSAGE value="获取链表的倒数第k个节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取链表的倒数第k个节点" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/nowCoder/TwoDArrayFind_1.java">
@@ -647,24 +676,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/ReOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="74" column="6" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
+        <state relative-caret-position="428">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/FindKthToTail.java">
+    <entry file="file://$PROJECT_DIR$/src/nowCoder/ReOrderArray_13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="450">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowCoder/FindKthToTail_14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowCoder/EntryNodeOfLoop_55.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="48" selection-start-line="48" selection-end-line="62" />
         </state>
       </provider>
     </entry>
