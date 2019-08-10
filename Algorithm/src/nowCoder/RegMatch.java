@@ -30,6 +30,6 @@ public class RegMatch {
             if(str[start1] == pattern[start1] || pattern[start1] == '.'){
 
             }
-
+        return false;
     }
 }

@@ -19,5 +19,7 @@ public class PrintTreeZ_59 {
             TreeNode temp = stack.getFirst();
 
         }
+
+        return null;
     }
 }
