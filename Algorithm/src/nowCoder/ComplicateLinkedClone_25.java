@@ -7,6 +7,6 @@ package nowCoder;
 public class ComplicateLinkedClone_25 {
     public RandomListNode Clone(RandomListNode pHead)
     {
-
+       return new RandomListNode(2);
     }
 }

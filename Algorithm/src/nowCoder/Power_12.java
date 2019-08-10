@@ -21,7 +21,7 @@ public class Power_12 {
         }
     }
 
-    // 2.  通过二分优化求幂指的过程
+    // 2.  通过二分优化求幂指的过程，快速幂
 
     public double Power2(double base, int exponent) {
         if(base == 0){
