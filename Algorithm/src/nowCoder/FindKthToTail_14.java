@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * 输入一个链表，输出该链表中倒数第k个结点。
  */
-public class FindKthToTail {
+public class FindKthToTail_14 {
 
 
     // 1. 直接法
