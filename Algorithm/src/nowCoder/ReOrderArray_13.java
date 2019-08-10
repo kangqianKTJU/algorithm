@@ -5,7 +5,7 @@ package nowCoder;
  * 输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有的奇数位于数组的前半部分，
  * 所有的偶数位于数组的后半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
  */
-public class ReOrderArray {
+public class ReOrderArray_13 {
     // 1. 冒泡法
     //  从头到尾扫描，每次遇到一个基数，通过冒泡的方式把他交换到前半部分
     public void reOrderArray(int [] array) {
