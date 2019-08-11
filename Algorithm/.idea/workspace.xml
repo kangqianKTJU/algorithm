@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,15 +118,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding>
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#465#466#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1606">
+              <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -154,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/ReplaceSpace_2.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/ListNode.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/PrintListFromTailToHead_3.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/ReConstructBinaryTree_4.java" />
@@ -205,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/P862_ShortestSubarrayWithSumOfK.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java" />
       </list>
     </option>
   </component>
@@ -262,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565534376133" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565541664899" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -371,7 +380,7 @@
       <workItem from="1564920533230" duration="9147000" />
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
-      <workItem from="1565180449547" duration="94239000" />
+      <workItem from="1565180449547" duration="100664000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -555,11 +564,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565534035744</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="303. 快速求数组的任意 i~j 项之和">
+      <created>1565534549543</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1565534549543</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136351000" />
+    <option name="totallyTimeSpent" value="142776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="11" width="1616" height="876" extended-state="0" />
@@ -625,17 +641,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="303. 快速求数组的任意 i~j 项之和" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/PrintListFromTailToHead_3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
@@ -1048,11 +1053,18 @@
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding>
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="73" column="22" lean-forward="true" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
         </state>
       </provider>
     </entry>
