@@ -1,6 +1,9 @@
 package LeetCode.DP;
 /**
  * 给定一个整数数组  nums，求出数组从索引 i 到 j  (i ≤ j) 范围内元素的总和，包含 i,  j 两点。
+ *
+ * https://leetcode-cn.com/problems/range-sum-query-immutable/solution/ji-yi-cun-chu-dong-tai-gui-hua-bao-li-fa-dong-tai-/
+ *
  */
 
 
@@ -27,5 +30,7 @@ public class P303_RangeSumQuery {
         // 3. 利用Map缓存，把对应的i,j 映射到 对应的和
 
         // 4. 利用矩阵来存储i-j的和
+
+        // 5. 采用线段树
 
     }
