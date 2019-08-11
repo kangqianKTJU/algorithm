@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/P862_ShortestSubarrayWithSumOfK.java" afterDir="false" />
+    <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="303. 快速求数组的任意 i~j 项之和">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="208">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
               <folding>
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#465#466#0" expanded="true" />
@@ -248,6 +246,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565533178368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565533707618" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -366,7 +371,7 @@
       <workItem from="1564920533230" duration="9147000" />
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
-      <workItem from="1565180449547" duration="93042000" />
+      <workItem from="1565180449547" duration="93893000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -536,11 +541,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565507684223</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="303. 快速求数组的任意 i~j 项之和">
+      <created>1565533248617</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565533248617</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135154000" />
+    <option name="totallyTimeSpent" value="136005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="11" width="1616" height="876" extended-state="0" />
@@ -602,7 +614,8 @@
     <MESSAGE value="28. 重复次数超过数组长度一半的元素" />
     <MESSAGE value="29. 最小的k个数" />
     <MESSAGE value="30. 最大的子序列的和" />
-    <option name="LAST_COMMIT_MESSAGE" value="30. 最大的子序列的和" />
+    <MESSAGE value="303. 快速求数组的任意 i~j 项之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="303. 快速求数组的任意 i~j 项之和" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/nowCoder/ListNode.java">
@@ -1027,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        <state relative-caret-position="208">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
           <folding>
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />

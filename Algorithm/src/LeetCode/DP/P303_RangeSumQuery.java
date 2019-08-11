@@ -13,6 +13,7 @@ public class P303_RangeSumQuery {
         public P303_RangeSumQuery(int[] nums) {
             sum = new int[nums.length + 1];
             for(int i = 1; i < sum.length; i++){
+                // 动态规划，dp[i] = dp[i - 1] + nums[i - 1]
                 sum[i] = sum[i - 1] + nums[i - 1];
             }
         }
@@ -20,4 +21,11 @@ public class P303_RangeSumQuery {
         public int sumRange(int i, int j) {
             return sum[j + 1] - sum[i];
         }
+
+        // 2. 暴力法：每次请求计算i，j的数之和，重新计算，O(n),略，重复计算，性能低
+
+        // 3. 利用Map缓存，把对应的i,j 映射到 对应的和
+
+        // 4. 利用矩阵来存储i-j的和
+
     }
