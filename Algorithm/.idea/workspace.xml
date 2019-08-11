@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nowCoder/MoreThanHalfNum_28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowCoder/GetKthLeastNumbers_29.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,11 +61,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowCoder/MoreThanHalfNum_28.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+            <state relative-caret-position="1210">
+              <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nowCoder/GetKthLeastNumbers_29.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/nowCoder/BstConvertLinkedList_26.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/Permutation_27.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/MoreThanHalfNum_28.java" />
+        <option value="$PROJECT_DIR$/src/nowCoder/GetKthLeastNumbers_29.java" />
       </list>
     </option>
   </component>
@@ -192,7 +207,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565495046800" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565496592851" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ComplicateLinkedClone_25">
+  <component name="RunManager" selected="Application.GetKthLeastNumbers_29">
     <configuration name="ComplicateLinkedClone_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nowCoder.ComplicateLinkedClone_25" />
       <module name="Algorithm" />
@@ -230,6 +245,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="nowCoder.RandomListNode" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetKthLeastNumbers_29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowCoder.GetKthLeastNumbers_29" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nowCoder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,6 +293,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetKthLeastNumbers_29" />
         <item itemvalue="Application.ComplicateLinkedClone_25" />
         <item itemvalue="Application.TestCode" />
         <item itemvalue="Application.MinNumberInRotateArray_6" />
@@ -287,7 +316,7 @@
       <workItem from="1564920533230" duration="9147000" />
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
-      <workItem from="1565180449547" duration="73779000" />
+      <workItem from="1565180449547" duration="75640000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -436,17 +465,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565492430690</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="28. 重复次数超过数组长度一半的元素">
+      <created>1565495158992</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1565495158992</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115891000" />
+    <option name="totallyTimeSpent" value="117752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.22686376" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.22686376" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -499,7 +535,8 @@
     <MESSAGE value="25. 复制链表的复制" />
     <MESSAGE value="26. 二叉搜索树转双向链表" />
     <MESSAGE value="27. 字符串的全排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="27. 字符串的全排列" />
+    <MESSAGE value="28. 重复次数超过数组长度一半的元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="28. 重复次数超过数组长度一半的元素" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/nowCoder/TwoDArrayFind_1.java">
@@ -891,8 +928,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/MoreThanHalfNum_28.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        <state relative-caret-position="1210">
+          <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowCoder/GetKthLeastNumbers_29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
