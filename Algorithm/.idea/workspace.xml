@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,15 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nowCoder/BstConvertLinkedList_26.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowCoder/Permutation_27.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,11 +126,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="41" column="22" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/PrintListFromTailToHead_3.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/ReConstructBinaryTree_4.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/TreeLinkNode.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/GetNextTreeNode_57.java" />
@@ -219,6 +220,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java" />
       </list>
     </option>
   </component>
@@ -276,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565572924436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565574976835" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,20 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P53_maxSubArray">
-    <configuration name="ComplicateLinkedClone_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nowCoder.ComplicateLinkedClone_25" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nowCoder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P70_ClimbStairs">
     <configuration name="FindGreatestSumOfSubArray_30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nowCoder.FindGreatestSumOfSubArray_30" />
       <module name="Algorithm" />
@@ -347,6 +336,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="P70_ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.DP.P70_ClimbStairs" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P862_ShortestSubarrayWithSumOfK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.P862_ShortestSubarrayWithSumOfK" />
       <module name="Algorithm" />
@@ -362,11 +364,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P70_ClimbStairs" />
         <item itemvalue="Application.P53_maxSubArray" />
         <item itemvalue="Application.P862_ShortestSubarrayWithSumOfK" />
         <item itemvalue="Application.FindGreatestSumOfSubArray_30" />
         <item itemvalue="Application.GetKthLeastNumbers_29" />
-        <item itemvalue="Application.ComplicateLinkedClone_25" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +387,7 @@
       <workItem from="1564920533230" duration="9147000" />
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
-      <workItem from="1565180449547" duration="105078000" />
+      <workItem from="1565180449547" duration="107442000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -583,17 +585,23 @@
       <option name="project" value="LOCAL" />
       <updated>1565543336799</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="53. 最大子数组的和">
+      <created>1565573104375</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1565573104375</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147190000" />
+    <option name="totallyTimeSpent" value="149554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="11" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.17416452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.17416452" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -602,7 +610,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.11904762" side_tool="true" weight="0.25385603" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04037685" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36339167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34185734" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -651,16 +659,10 @@
     <MESSAGE value="30. 最大的子序列的和" />
     <MESSAGE value="303. 快速求数组的任意 i~j 项之和" />
     <MESSAGE value="121. 买卖股票的最佳时间 k = 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="121. 买卖股票的最佳时间 k = 1" />
+    <MESSAGE value="53. 最大子数组的和" />
+    <option name="LAST_COMMIT_MESSAGE" value="53. 最大子数组的和" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/ReConstructBinaryTree_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/GetNextTreeNode_57.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
@@ -1080,8 +1082,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="220">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
