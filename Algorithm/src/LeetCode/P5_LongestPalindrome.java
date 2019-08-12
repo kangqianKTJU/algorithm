@@ -10,6 +10,6 @@ public class P5_LongestPalindrome {
     //   将字符串反转，求得反转后的字符串和原始字符串的最大公共子串。
     //   验证是否为回文字符串，否则找第二大公共字串
     public String longestPalindrome(String s) {
-
+        return "k";
     }
 }
