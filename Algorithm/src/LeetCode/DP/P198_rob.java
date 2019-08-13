@@ -26,7 +26,6 @@ public class P198_rob {
             dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
         }
         return dp[nums.length - 1];
-        "kkq".to
     }
 
 
