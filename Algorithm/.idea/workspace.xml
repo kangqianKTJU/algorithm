@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P51_solveNQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,15 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Hash/P771_numJewelsInStones.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="27" selection-start-line="27" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Greedy/P1046_lastStoneWeight.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,11 +102,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1232">
+              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/HasPath_65.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/MovingCount_66.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/NumberOf1_11.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/Power_12.java" />
@@ -224,6 +225,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P42_trap.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P51_solveNQueens.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" />
       </list>
     </option>
   </component>
@@ -287,7 +289,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565786546155" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565796300362" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -305,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P784_letterCasePermutation">
+  <component name="RunManager" selected="Application.P401_readBinaryWatch">
     <configuration name="P101_isSymmetric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.DFS.P101_isSymmetric" />
       <module name="Algorithm" />
@@ -319,8 +321,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1046_lastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Greedy.P1046_lastStoneWeight" />
+    <configuration name="P134_canCompleteCircuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Greedy.P134_canCompleteCircuit" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -332,12 +334,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P134_canCompleteCircuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Greedy.P134_canCompleteCircuit" />
+    <configuration name="P401_readBinaryWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.BackTrace.P401_readBinaryWatch" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Greedy.*" />
+          <option name="PATTERN" value="LeetCode.BackTrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,11 +375,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P401_readBinaryWatch" />
         <item itemvalue="Application.P784_letterCasePermutation" />
         <item itemvalue="Application.P42_trap" />
         <item itemvalue="Application.P101_isSymmetric" />
         <item itemvalue="Application.P134_canCompleteCircuit" />
-        <item itemvalue="Application.P1046_lastStoneWeight" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +398,7 @@
       <workItem from="1564920533230" duration="9147000" />
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
-      <workItem from="1565180449547" duration="152043000" />
+      <workItem from="1565180449547" duration="158104000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -657,16 +659,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565773587211</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="784. 大小写字母全排列">
+      <created>1565787014660</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1565787014660</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194155000" />
+    <option name="totallyTimeSpent" value="200216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="11" width="1616" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.17416452" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.17416452" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -675,7 +685,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.11904762" side_tool="true" weight="0.25385603" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28667563" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4293405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35666218" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -701,7 +711,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="获取链表的入口节点" />
     <MESSAGE value="反转链表" />
     <MESSAGE value="合并两个排序的链表" />
     <MESSAGE value="树的子结构" />
@@ -726,16 +735,10 @@
     <MESSAGE value="134. 能否环绕所有加油站" />
     <MESSAGE value="101. 对称二叉树判断" />
     <MESSAGE value="142. 接雨水" />
-    <option name="LAST_COMMIT_MESSAGE" value="142. 接雨水" />
+    <MESSAGE value="784. 大小写字母全排列" />
+    <option name="LAST_COMMIT_MESSAGE" value="784. 大小写字母全排列" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/Power_12.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1184,8 +1187,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="198">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
