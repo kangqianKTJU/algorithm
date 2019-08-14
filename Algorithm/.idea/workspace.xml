@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Greedy/P1046_lastStoneWeight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Hash/P771_numJewelsInStones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Hash/P771_numJewelsInStones.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,19 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/P862_ShortestSubarrayWithSumOfK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="99" column="29" lean-forward="true" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2336#2345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,11 +120,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Hash/P771_numJewelsInStones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+            <state relative-caret-position="280">
+              <caret line="27" selection-start-line="27" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Greedy/P1046_lastStoneWeight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="31" column="25" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="31" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/Fibonacci_7.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/JumpFloor_8.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/JumpFloorII_9.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/RectCover_10.java" />
@@ -216,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/Interview/EasyNet/NiuNiuFindWork.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P198_rob.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Hash/P771_numJewelsInStones.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Greedy/P1046_lastStoneWeight.java" />
       </list>
     </option>
   </component>
@@ -268,14 +269,7 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Hash" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565713208572" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565749140209" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -304,13 +298,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P771_numJewelsInStones">
+  <component name="RunManager" selected="Application.P1046_lastStoneWeight">
     <configuration name="NiuNiuFindWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interview.EasyNet.NiuNiuFindWork" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Interview.EasyNet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1046_lastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Greedy.P1046_lastStoneWeight" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,26 +364,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P862_ShortestSubarrayWithSumOfK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.P862_ShortestSubarrayWithSumOfK" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1046_lastStoneWeight" />
         <item itemvalue="Application.P771_numJewelsInStones" />
         <item itemvalue="Application.NiuNiuFindWork" />
         <item itemvalue="Application.P70_ClimbStairs" />
         <item itemvalue="Application.P53_maxSubArray" />
-        <item itemvalue="Application.P862_ShortestSubarrayWithSumOfK" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +389,7 @@
       <workItem from="1564920533230" duration="9147000" />
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
-      <workItem from="1565180449547" duration="124097000" />
+      <workItem from="1565180449547" duration="125651000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -621,11 +615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565709193112</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="771. 是否含有珠宝">
+      <created>1565713287646</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1565713287646</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166209000" />
+    <option name="totallyTimeSpent" value="167763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="11" width="1616" height="876" extended-state="0" />
@@ -666,7 +667,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="整数2进制表示中1的个数" />
     <MESSAGE value="求整数幂" />
     <MESSAGE value="重排数组，使得奇数为与偶数的前面" />
     <MESSAGE value="调整数组是奇数位于偶数的前面" />
@@ -691,28 +691,10 @@
     <MESSAGE value="70. 爬楼梯" />
     <MESSAGE value="338. 指定n范围内的所有数包含1的总和" />
     <MESSAGE value="198. 小偷盗窃钱财最大" />
-    <option name="LAST_COMMIT_MESSAGE" value="198. 小偷盗窃钱财最大" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode/Hash/P771_numJewelsInStones.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="771. 是否含有珠宝" />
+    <option name="LAST_COMMIT_MESSAGE" value="771. 是否含有珠宝" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/RectCover_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/MinNumberInRotateArray_6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
@@ -1138,8 +1120,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Hash/P771_numJewelsInStones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="31" column="66" lean-forward="true" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        <state relative-caret-position="280">
+          <caret line="27" selection-start-line="27" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Greedy/P1046_lastStoneWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
