@@ -57,5 +57,6 @@ public class P79_existWord {
         char[][] board = new char[][]{{'C','A','A'},{'A','A','A'},{'B','C','D'}};
         String word = "AAB";
         System.out.println(solution.exist(board, word));
+
     }
 }
