@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Arrays/P15_threeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Common/PrintUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Sort/P324_wiggleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Tree/P637_averageOfLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Greedy/P122_maxProfit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/BackTrace/P79_existWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P79_existWord.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,14 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+            <state relative-caret-position="1584">
+              <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Greedy/P122_maxProfit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -95,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/MaxInWindows_64.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/ReOrderArray.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/FindKthToTail.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/FindKthToTail_14.java" />
@@ -146,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Common/PrintUtil.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Sort/P324_wiggleSort.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Greedy/P122_maxProfit.java" />
       </list>
     </option>
   </component>
@@ -192,7 +196,7 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Greedy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +207,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565952745296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565956072006" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -221,7 +225,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P26_removeDuplicates">
+  <component name="RunManager" selected="Application.P122_maxProfit">
+    <configuration name="P122_maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Greedy.P122_maxProfit" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P15_threeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Arrays.P15_threeSum" />
       <module name="Algorithm" />
@@ -261,19 +278,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P401_readBinaryWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.BackTrace.P401_readBinaryWatch" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.BackTrace.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="P79_existWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.BackTrace.P79_existWord" />
       <module name="Algorithm" />
@@ -289,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P122_maxProfit" />
         <item itemvalue="Application.P26_removeDuplicates" />
         <item itemvalue="Application.P324_wiggleSort" />
         <item itemvalue="Application.P15_threeSum" />
         <item itemvalue="Application.P79_existWord" />
-        <item itemvalue="Application.P401_readBinaryWatch" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +317,7 @@
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
       <workItem from="1565180449547" duration="162831000" />
-      <workItem from="1565926262397" duration="12736000" />
+      <workItem from="1565926262397" duration="16704000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -595,11 +599,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565801992034</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="26. 移除数组中重复的元素">
+      <created>1565952786148</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1565952786148</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217679000" />
+    <option name="totallyTimeSpent" value="221647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="11" width="1616" height="876" extended-state="0" />
@@ -640,7 +651,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="树的子结构" />
     <MESSAGE value="树的镜像" />
     <MESSAGE value="带min函数的栈" />
     <MESSAGE value="21. 是否是栈的入栈和出栈序列" />
@@ -665,16 +675,10 @@
     <MESSAGE value="784. 大小写字母全排列" />
     <MESSAGE value="401. 二进制手表" />
     <MESSAGE value="79. 矩阵查找单词" />
-    <option name="LAST_COMMIT_MESSAGE" value="79. 矩阵查找单词" />
+    <MESSAGE value="26. 移除数组中重复的元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="26. 移除数组中重复的元素" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/ReOrderArray_13.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1121,11 +1125,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        <state relative-caret-position="1584">
+          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Greedy/P122_maxProfit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
