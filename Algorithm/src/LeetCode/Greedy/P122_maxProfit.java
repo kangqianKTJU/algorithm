@@ -1,6 +1,10 @@
 package LeetCode.Greedy;
 
+import LeetCode.Common.PrintUtil;
 import com.sun.org.apache.bcel.internal.generic.RETURN;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class P122_maxProfit {
     public int maxProfit(int[] prices) {
@@ -39,6 +43,16 @@ public class P122_maxProfit {
 //        int[] nums = {4,3};
         int[] nums = {5, 2, 3, 2, 6, 6, 2, 9, 1, 0, 7, 4, 5, 0};
         System.out.println(solution.maxProfit(nums));
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+
+        Integer[] array;
+        array = list.toArray(new Integer[0]);
+        for(Integer i:array){
+            System.out.println(i);
+        }
+
     }
 
 
