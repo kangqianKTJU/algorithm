@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Hash/P350_intersect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Arrays/P283_moveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/DFS/P98_isValidBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/P387_firstUniqChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/P7_reverseInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Greedy/P122_maxProfit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Greedy/P122_maxProfit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Hash/P350_intersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Hash/P350_intersect.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,31 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Common/PrintUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Sort/P324_wiggleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="78" selection-start-line="78" selection-end-line="86" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,10 +52,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Greedy/P122_maxProfit.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P283_moveZeroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+            <state relative-caret-position="308">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/String/P7_reverseInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/String/P387_firstUniqChar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-609">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-946">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="682">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DFS/P98_isValidBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,10 +127,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="method#longestPalindrome#0;class#P5_longestPalindrome#0" />
+                <element signature="method#Palindrome#0;class#P5_longestPalindrome#0" />
+                <element signature="method#longestPalindrome#1;class#P5_longestPalindrome#0" />
+                <element signature="method#Palindrome#1;class#P5_longestPalindrome#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Hash/P350_intersect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+            <state relative-caret-position="604">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/FindKthToTail.java" />
-        <option value="$PROJECT_DIR$/src/nowCoder/FindKthToTail_14.java" />
-        <option value="$PROJECT_DIR$/src/nowCoder/EntryNodeOfLoop.java" />
-        <option value="$PROJECT_DIR$/src/nowCoder/EntryNodeOfLoop_55.java" />
-        <option value="$PROJECT_DIR$/src/nowCoder/ReverseList_15.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/MergeList_16.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/HasSubtree_17.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/MirrorTree.java" />
@@ -166,6 +222,11 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Greedy/P122_maxProfit.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Hash/P350_intersect.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Arrays/P283_moveZeroes.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/String/P7_reverseInt.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/String/P387_firstUniqChar.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/DFS/P98_isValidBST.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java" />
       </list>
     </option>
   </component>
@@ -212,7 +273,21 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Hash" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,7 +298,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565965672932" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566197124390" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -241,22 +316,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P350_intersect">
-    <configuration name="P122_maxProfit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Greedy.P122_maxProfit" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.Greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P15_threeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Arrays.P15_threeSum" />
+  <component name="RunManager" selected="Application.P5_longestPalindrome">
+    <configuration name="P283_moveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Arrays.P283_moveZeroes" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -268,12 +330,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P26_removeDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Arrays.P26_removeDuplicates" />
+    <configuration name="P387_firstUniqChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.String.P387_firstUniqChar" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Arrays.*" />
+          <option name="PATTERN" value="LeetCode.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,12 +343,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P324_wiggleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Sort.P324_wiggleSort" />
+    <configuration name="P5_longestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.DP.P5_longestPalindrome" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Sort.*" />
+          <option name="PATTERN" value="LeetCode.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,12 +356,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P350_intersect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Hash.P350_intersect" />
+    <configuration name="P7_reverseInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.String.P7_reverseInt" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Hash.*" />
+          <option name="PATTERN" value="LeetCode.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P98_isValidBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.DFS.P98_isValidBST" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.DFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,11 +384,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P350_intersect" />
-        <item itemvalue="Application.P122_maxProfit" />
-        <item itemvalue="Application.P26_removeDuplicates" />
-        <item itemvalue="Application.P324_wiggleSort" />
-        <item itemvalue="Application.P15_threeSum" />
+        <item itemvalue="Application.P5_longestPalindrome" />
+        <item itemvalue="Application.P98_isValidBST" />
+        <item itemvalue="Application.P387_firstUniqChar" />
+        <item itemvalue="Application.P7_reverseInt" />
+        <item itemvalue="Application.P283_moveZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +408,7 @@
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
       <workItem from="1565180449547" duration="162831000" />
-      <workItem from="1565926262397" duration="21995000" />
+      <workItem from="1565926262397" duration="46939000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -629,17 +704,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565956526103</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="350. 两个数组的交集2">
+      <created>1565965731002</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1565965731002</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226938000" />
+    <option name="totallyTimeSpent" value="251882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="11" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.084190235" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.18701799" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -648,8 +730,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.11904762" side_tool="true" weight="0.25385603" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28667563" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46567968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19650067" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41991925" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -674,7 +756,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="带min函数的栈" />
     <MESSAGE value="21. 是否是栈的入栈和出栈序列" />
     <MESSAGE value="22. 层序遍历二叉树（BFS）" />
     <MESSAGE value="25. 复制链表的复制" />
@@ -699,51 +780,22 @@
     <MESSAGE value="79. 矩阵查找单词" />
     <MESSAGE value="26. 移除数组中重复的元素" />
     <MESSAGE value="122. 买卖股票2" />
-    <option name="LAST_COMMIT_MESSAGE" value="122. 买卖股票2" />
+    <MESSAGE value="350. 两个数组的交集2" />
+    <option name="LAST_COMMIT_MESSAGE" value="350. 两个数组的交集2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/FindKthToTail_14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/EntryNodeOfLoop_55.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/ReverseList_15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/MergeList_16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/HasSubtree_17.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -917,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -942,23 +987,6 @@
           <folding>
             <element signature="e#333#334#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1139,16 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="72" column="34" lean-forward="true" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Greedy/P122_maxProfit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -1161,10 +1179,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Hash/P350_intersect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+        <state relative-caret-position="604">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="78" selection-start-line="78" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P283_moveZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/String/P7_reverseInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/String/P387_firstUniqChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-609">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-946">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DFS/P98_isValidBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="method#longestPalindrome#0;class#P5_longestPalindrome#0" />
+            <element signature="method#Palindrome#0;class#P5_longestPalindrome#0" />
+            <element signature="method#longestPalindrome#1;class#P5_longestPalindrome#0" />
+            <element signature="method#Palindrome#1;class#P5_longestPalindrome#0" />
           </folding>
         </state>
       </provider>

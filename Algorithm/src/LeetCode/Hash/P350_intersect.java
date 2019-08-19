@@ -102,5 +102,6 @@ public class P350_intersect {
                 0,2,36,68,52,73,50,77,44,61,48};
         int[] res = solution.intersect2(nums1, nums2);
         PrintUtil.printArray(res);
+
     }
 }
