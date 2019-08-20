@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Arrays/P283_moveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/DFS/P98_isValidBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/P387_firstUniqChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/String/P7_reverseInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P10_isMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P62_uniquePaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Hash/P350_intersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Hash/P350_intersect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,22 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="78" selection-start-line="78" selection-end-line="86" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P283_moveZeroes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="1100">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -63,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/String/P7_reverseInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="198">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/String/P387_firstUniqChar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="594">
+              <caret line="31" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-609">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="264">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-946">
+            <state relative-caret-position="572">
               <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
             </state>
           </provider>
@@ -108,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="880">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -117,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/DFS/P98_isValidBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+            <state relative-caret-position="2420">
+              <caret line="114" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,15 +112,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="792">
+              <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
               <folding>
                 <element signature="method#longestPalindrome#0;class#P5_longestPalindrome#0" />
                 <element signature="method#Palindrome#0;class#P5_longestPalindrome#0" />
-                <element signature="method#longestPalindrome#1;class#P5_longestPalindrome#0" />
                 <element signature="method#Palindrome#1;class#P5_longestPalindrome#0" />
               </folding>
             </state>
@@ -142,12 +127,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Hash/P350_intersect.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P10_isMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="1474">
+              <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="68" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P62_uniquePaths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="628">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,8 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/MergeList_16.java" />
-        <option value="$PROJECT_DIR$/src/nowCoder/HasSubtree_17.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/MirrorTree.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/MirrorTree_18.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/PrintMatrix_19.java" />
@@ -199,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/LeetCode/P862_ShortestSubarrayWithSumOfK.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P303_RangeSumQuery.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P338_CountBitsBetweenN.java" />
@@ -226,7 +218,10 @@
         <option value="$PROJECT_DIR$/src/LeetCode/String/P7_reverseInt.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/String/P387_firstUniqChar.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DFS/P98_isValidBST.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/DP/P10_isMatch.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/DP/P62_uniquePaths.java" />
       </list>
     </option>
   </component>
@@ -236,7 +231,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="9" />
     <option name="y" value="11" />
     <option name="width" value="1616" />
@@ -248,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,32 +266,20 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="DFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="DP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566197124390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566263758819" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -316,13 +297,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P5_longestPalindrome">
-    <configuration name="P283_moveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Arrays.P283_moveZeroes" />
+  <component name="RunManager" selected="Application.P62_uniquePaths">
+    <configuration name="P10_isMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.DP.P10_isMatch" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Arrays.*" />
+          <option name="PATTERN" value="LeetCode.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,12 +337,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P7_reverseInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.String.P7_reverseInt" />
+    <configuration name="P62_uniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.DP.P62_uniquePaths" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.String.*" />
+          <option name="PATTERN" value="LeetCode.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,11 +365,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P62_uniquePaths" />
+        <item itemvalue="Application.P10_isMatch" />
         <item itemvalue="Application.P5_longestPalindrome" />
         <item itemvalue="Application.P98_isValidBST" />
         <item itemvalue="Application.P387_firstUniqChar" />
-        <item itemvalue="Application.P7_reverseInt" />
-        <item itemvalue="Application.P283_moveZeroes" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +389,8 @@
       <workItem from="1565138395419" duration="1662000" />
       <workItem from="1565155516528" duration="4294000" />
       <workItem from="1565180449547" duration="162831000" />
-      <workItem from="1565926262397" duration="46939000" />
+      <workItem from="1565926262397" duration="48144000" />
+      <workItem from="1566202936620" duration="20986000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -711,17 +693,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565965731002</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="5. 最长回文子串">
+      <created>1566197334510</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1566197334510</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251882000" />
+    <option name="totallyTimeSpent" value="274073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="11" width="1616" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.18701799" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.1895887" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -730,7 +719,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.11904762" side_tool="true" weight="0.25385603" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19650067" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17496635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41991925" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -756,7 +745,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="21. 是否是栈的入栈和出栈序列" />
     <MESSAGE value="22. 层序遍历二叉树（BFS）" />
     <MESSAGE value="25. 复制链表的复制" />
     <MESSAGE value="26. 二叉搜索树转双向链表" />
@@ -781,14 +769,15 @@
     <MESSAGE value="26. 移除数组中重复的元素" />
     <MESSAGE value="122. 买卖股票2" />
     <MESSAGE value="350. 两个数组的交集2" />
-    <option name="LAST_COMMIT_MESSAGE" value="350. 两个数组的交集2" />
+    <MESSAGE value="5. 最长回文子串" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. 最长回文子串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java</url>
-          <line>13</line>
+          <line>16</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -796,23 +785,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/HasSubtree_17.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/MirrorTree_18.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="e#1053#1063#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/RandomListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -976,17 +948,6 @@
           <folding>
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1187,9 +1148,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/P5_LongestPalindrome.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P26_removeDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="1694">
           <caret line="78" selection-start-line="78" selection-end-line="86" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1199,15 +1161,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P283_moveZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="1100">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/String/P7_reverseInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="198">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1216,8 +1178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/String/P387_firstUniqChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="594">
+          <caret line="31" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1226,8 +1188,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="264">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1236,22 +1198,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
+        <state relative-caret-position="572">
           <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="880">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DFS/P98_isValidBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        <state relative-caret-position="2420">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1260,13 +1222,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P5_longestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="792">
+          <caret line="70" column="48" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
           <folding>
             <element signature="method#longestPalindrome#0;class#P5_longestPalindrome#0" />
             <element signature="method#Palindrome#0;class#P5_longestPalindrome#0" />
-            <element signature="method#longestPalindrome#1;class#P5_longestPalindrome#0" />
             <element signature="method#Palindrome#1;class#P5_longestPalindrome#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P10_isMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P62_uniquePaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
           </folding>
         </state>
       </provider>
