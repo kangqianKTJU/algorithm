@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P213_rob2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/DoublePoint/P1004_longestOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Greedy/P621_leastInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P337_rob3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -89,11 +87,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P213_rob2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P337_rob3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/RandomListNode.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/PrintTreeZ_59.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/PrintTreeAtLevel_60.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/RegMatch.java" />
@@ -181,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/DoublePoint/P1004_longestOnes.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Greedy/P621_leastInterval.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P213_rob2.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/DP/P337_rob3.java" />
       </list>
     </option>
   </component>
@@ -237,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566521399290" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566529248096" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -358,7 +368,7 @@
       <workItem from="1565926262397" duration="48144000" />
       <workItem from="1566202936620" duration="22310000" />
       <workItem from="1566297576175" duration="22929000" />
-      <workItem from="1566462257479" duration="9695000" />
+      <workItem from="1566462257479" duration="15285000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -682,14 +692,22 @@
       <option name="project" value="LOCAL" />
       <updated>1566454087893</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="P.213 环形偷东西">
+      <created>1566523509758</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1566523509758</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308021000" />
+    <option name="totallyTimeSpent" value="313611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1616" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.19473007" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
@@ -726,7 +744,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="26. 二叉搜索树转双向链表" />
     <MESSAGE value="27. 字符串的全排列" />
     <MESSAGE value="28. 重复次数超过数组长度一半的元素" />
     <MESSAGE value="29. 最小的k个数" />
@@ -751,7 +768,8 @@
     <MESSAGE value="5. 最长回文子串" />
     <MESSAGE value="P62. 不同路径" />
     <MESSAGE value="P146. LRU缓存机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="P146. LRU缓存机制" />
+    <MESSAGE value="P.213 环形偷东西" />
+    <option name="LAST_COMMIT_MESSAGE" value="P.213 环形偷东西" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -778,16 +796,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/Permutation_27.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/MoreThanHalfNum_28.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
@@ -1232,6 +1240,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P337_rob3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
