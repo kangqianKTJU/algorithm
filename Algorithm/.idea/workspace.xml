@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterviewPractice/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P877_stoneGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Design/P146_LRU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/SlidingWindow/P3_lengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P213_rob2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/DoublePoint/P1004_longestOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Greedy/P621_leastInterval.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,8 +39,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/SlidingWindow/P3_lengthOfLongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+            <state relative-caret-position="1188">
+              <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Design/P146_LRU.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="934">
+              <caret line="59" selection-start-line="59" selection-end-line="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3507#3508#0" expanded="true" />
+                <element signature="e#3541#3542#0" expanded="true" />
+                <element signature="e#3574#3575#0" expanded="true" />
+                <element signature="e#3610#3611#0" expanded="true" />
+                <element signature="e#3649#3650#0" expanded="true" />
+                <element signature="e#3687#3688#0" expanded="true" />
+                <element signature="e#3730#3731#0" expanded="true" />
+                <element signature="e#3772#3773#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DoublePoint/P1004_longestOnes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Greedy/P621_leastInterval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,19 +90,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/Design/P146_LRU.java">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P213_rob2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#3441#3442#0" expanded="true" />
-                <element signature="e#3510#3511#0" expanded="true" />
-                <element signature="e#3587#3588#0" expanded="true" />
-                <element signature="e#3672#3673#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -70,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="4070">
               <caret line="208" column="6" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="6" />
             </state>
           </provider>
@@ -99,9 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/IsPopOrder_21.java" />
-        <option value="$PROJECT_DIR$/src/nowCoder/PrintFromTopToBottom_22.java" />
-        <option value="$PROJECT_DIR$/src/nowCoder/RandomListNode_25.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/RandomListNode.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/PrintTreeZ_59.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/PrintTreeAtLevel_60.java" />
@@ -150,6 +178,9 @@
         <option value="$PROJECT_DIR$/src/InterviewPractice/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/SlidingWindow/P3_lengthOfLongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Design/P146_LRU.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/DoublePoint/P1004_longestOnes.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Greedy/P621_leastInterval.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/DP/P213_rob2.java" />
       </list>
     </option>
   </component>
@@ -186,26 +217,27 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="InterviewPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566453962848" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566521399290" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -223,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P146_LRU">
+  <component name="RunManager" selected="Application.P1004_longestOnes">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewPractice.BinarySearch" />
       <module name="Algorithm" />
@@ -238,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P10_isMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.DP.P10_isMatch" />
+    <configuration name="P1004_longestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.DoublePoint.P1004_longestOnes" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.DP.*" />
+          <option name="PATTERN" value="LeetCode.DoublePoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,18 +324,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BinarySearch" />
-      <item itemvalue="Application.P10_isMatch" />
       <item itemvalue="Application.P62_uniquePaths" />
       <item itemvalue="Application.P3_lengthOfLongestSubstring" />
       <item itemvalue="Application.P146_LRU" />
+      <item itemvalue="Application.P1004_longestOnes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P1004_longestOnes" />
         <item itemvalue="Application.P146_LRU" />
         <item itemvalue="Application.P3_lengthOfLongestSubstring" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.P62_uniquePaths" />
-        <item itemvalue="Application.P10_isMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +357,8 @@
       <workItem from="1565180449547" duration="162831000" />
       <workItem from="1565926262397" duration="48144000" />
       <workItem from="1566202936620" duration="22310000" />
-      <workItem from="1566297576175" duration="22147000" />
+      <workItem from="1566297576175" duration="22929000" />
+      <workItem from="1566462257479" duration="9695000" />
     </task>
     <task id="LOCAL-00001" summary="矩形覆盖">
       <created>1564924991716</created>
@@ -642,17 +675,23 @@
       <option name="project" value="LOCAL" />
       <updated>1566263995436</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="P146. LRU缓存机制">
+      <created>1566454087893</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1566454087893</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297544000" />
+    <option name="totallyTimeSpent" value="308021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.19215938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.19473007" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -662,7 +701,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3822342" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41991925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41991925" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -687,7 +726,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="25. 复制链表的复制" />
     <MESSAGE value="26. 二叉搜索树转双向链表" />
     <MESSAGE value="27. 字符串的全排列" />
     <MESSAGE value="28. 重复次数超过数组长度一半的元素" />
@@ -712,7 +750,8 @@
     <MESSAGE value="350. 两个数组的交集2" />
     <MESSAGE value="5. 最长回文子串" />
     <MESSAGE value="P62. 不同路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="P62. 不同路径" />
+    <MESSAGE value="P146. LRU缓存机制" />
+    <option name="LAST_COMMIT_MESSAGE" value="P146. LRU缓存机制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -729,31 +768,16 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/DoublePoint/P1004_longestOnes.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/PrintMatrix_19.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/ComplicateLinkedClone_25.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="10" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCoder/BstConvertLinkedList_26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCoder/Permutation_27.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1154,8 +1178,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/SlidingWindow/P3_lengthOfLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
+        <state relative-caret-position="1188">
+          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1164,24 +1188,50 @@
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="4070">
           <caret line="208" column="6" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Design/P146_LRU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
+        <state relative-caret-position="934">
+          <caret line="59" selection-start-line="59" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#3441#3442#0" expanded="true" />
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3587#3588#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
+            <element signature="e#3507#3508#0" expanded="true" />
+            <element signature="e#3541#3542#0" expanded="true" />
+            <element signature="e#3574#3575#0" expanded="true" />
+            <element signature="e#3610#3611#0" expanded="true" />
+            <element signature="e#3649#3650#0" expanded="true" />
+            <element signature="e#3687#3688#0" expanded="true" />
+            <element signature="e#3730#3731#0" expanded="true" />
+            <element signature="e#3772#3773#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DoublePoint/P1004_longestOnes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Greedy/P621_leastInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P213_rob2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
