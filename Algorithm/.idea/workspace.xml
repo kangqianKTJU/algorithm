@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,19 +34,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+            <state relative-caret-position="890">
+              <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2210#2218#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
@@ -98,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/LeetCode/DFS/P101_isSymmetric.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P42_trap.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P51_solveNQueens.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Tree/P637_averageOfLevels.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P79_existWord.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Arrays/P15_threeSum.java" />
@@ -129,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Tree/P108_sortedArrayToBST.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" />
       </list>
     </option>
   </component>
@@ -185,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566617665038" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566623623201" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -203,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P784_letterCasePermutation">
+  <component name="RunManager" selected="Application.P401_readBinaryWatch">
     <configuration name="P1004_longestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.DoublePoint.P1004_longestOnes" />
       <module name="Algorithm" />
@@ -230,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3_lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.SlidingWindow.P3_lengthOfLongestSubstring" />
+    <configuration name="P401_readBinaryWatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.BackTrace.P401_readBinaryWatch" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.SlidingWindow.*" />
+          <option name="PATTERN" value="LeetCode.BackTrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,19 +271,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P3_lengthOfLongestSubstring" />
       <item itemvalue="Application.P146_LRU" />
       <item itemvalue="Application.P1004_longestOnes" />
       <item itemvalue="Application.P78_subsets" />
       <item itemvalue="Application.P784_letterCasePermutation" />
+      <item itemvalue="Application.P401_readBinaryWatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P401_readBinaryWatch" />
         <item itemvalue="Application.P784_letterCasePermutation" />
         <item itemvalue="Application.P78_subsets" />
         <item itemvalue="Application.P1004_longestOnes" />
         <item itemvalue="Application.P146_LRU" />
-        <item itemvalue="Application.P3_lengthOfLongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -305,14 +306,7 @@
       <workItem from="1565926262397" duration="48144000" />
       <workItem from="1566202936620" duration="22310000" />
       <workItem from="1566297576175" duration="22929000" />
-      <workItem from="1566462257479" duration="28347000" />
-    </task>
-    <task id="LOCAL-00001" summary="矩形覆盖">
-      <created>1564924991716</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1564924991716</updated>
+      <workItem from="1566462257479" duration="34458000" />
     </task>
     <task id="LOCAL-00002" summary="矩形覆盖">
       <created>1564924999634</created>
@@ -650,11 +644,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566617489815</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="P.784 大小写字母全排列">
+      <created>1566617723785</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1566617723786</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326673000" />
+    <option name="totallyTimeSpent" value="332784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1616" height="876" extended-state="0" />
@@ -1180,20 +1181,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="890">
+          <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2210#2218#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
