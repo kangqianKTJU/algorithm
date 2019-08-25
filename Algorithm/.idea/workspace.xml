@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P22_generateParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +46,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state>
+              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P22_generateParenthesis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nowCoder/BstConvertLinkedList_26.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/Permutation_27.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/MoreThanHalfNum_28.java" />
         <option value="$PROJECT_DIR$/src/nowCoder/GetKthLeastNumbers_29.java" />
@@ -141,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P22_generateParenthesis.java" />
       </list>
     </option>
   </component>
@@ -150,7 +162,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
@@ -197,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566730536677" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566732213618" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -215,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P78_subsets">
+  <component name="RunManager" selected="Application.P22_generateParenthesis">
     <configuration name="P1004_longestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.DoublePoint.P1004_longestOnes" />
       <module name="Algorithm" />
@@ -229,12 +241,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P146_LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Design.P146_LRU" />
+    <configuration name="P22_generateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.BackTrace.P22_generateParenthesis" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Design.*" />
+          <option name="PATTERN" value="LeetCode.BackTrace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,19 +294,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P146_LRU" />
       <item itemvalue="Application.P1004_longestOnes" />
       <item itemvalue="Application.P78_subsets" />
       <item itemvalue="Application.P784_letterCasePermutation" />
       <item itemvalue="Application.P401_readBinaryWatch" />
+      <item itemvalue="Application.P22_generateParenthesis" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P22_generateParenthesis" />
         <item itemvalue="Application.P78_subsets" />
         <item itemvalue="Application.P401_readBinaryWatch" />
         <item itemvalue="Application.P784_letterCasePermutation" />
         <item itemvalue="Application.P1004_longestOnes" />
-        <item itemvalue="Application.P146_LRU" />
       </list>
     </recent_temporary>
   </component>
@@ -318,14 +330,7 @@
       <workItem from="1566202936620" duration="22310000" />
       <workItem from="1566297576175" duration="22929000" />
       <workItem from="1566462257479" duration="36712000" />
-      <workItem from="1566643617439" duration="850000" />
-    </task>
-    <task id="LOCAL-00003" summary="旋转数组的最小数字">
-      <created>1564926416506</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1564926416506</updated>
+      <workItem from="1566643617439" duration="2601000" />
     </task>
     <task id="LOCAL-00004" summary="旋转数组的最小数字">
       <created>1565231427500</created>
@@ -663,17 +668,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566625150346</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="P.78 子集">
+      <created>1566730565857</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1566730565857</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335888000" />
+    <option name="totallyTimeSpent" value="337639000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1616" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.19730078" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.19730078" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -708,7 +720,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="30. 最大的子序列的和" />
     <MESSAGE value="303. 快速求数组的任意 i~j 项之和" />
     <MESSAGE value="121. 买卖股票的最佳时间 k = 1" />
     <MESSAGE value="53. 最大子数组的和" />
@@ -733,7 +744,8 @@
     <MESSAGE value="P.337 树形偷东西" />
     <MESSAGE value="P.784 大小写字母全排列" />
     <MESSAGE value="P.401 二进制手表" />
-    <option name="LAST_COMMIT_MESSAGE" value="P.401 二进制手表" />
+    <MESSAGE value="P.78 子集" />
+    <option name="LAST_COMMIT_MESSAGE" value="P.78 子集" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -760,19 +772,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Interview/EasyNet/NiuNiuFindWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="123" column="43" lean-forward="true" selection-start-line="123" selection-start-column="43" selection-end-line="123" selection-end-column="43" />
-          <folding>
-            <element signature="e#3319#3320#0" expanded="true" />
-            <element signature="e#3377#3378#0" expanded="true" />
-            <element signature="e#3880#3881#0" expanded="true" />
-            <element signature="e#3901#3902#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P338_CountBitsBetweenN.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1195,8 +1194,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state>
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P22_generateParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
