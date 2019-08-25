@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,14 +34,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+            <state relative-caret-position="1804">
+              <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2210#2218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="1320">
               <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
             </state>
           </provider>
@@ -127,9 +138,9 @@
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P279_numSquares.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Arrays/P48_rotate.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Tree/P108_sortedArrayToBST.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java" />
       </list>
     </option>
   </component>
@@ -179,14 +190,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566623623201" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566730536677" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -204,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P401_readBinaryWatch">
+  <component name="RunManager" selected="Application.P78_subsets">
     <configuration name="P1004_longestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.DoublePoint.P1004_longestOnes" />
       <module name="Algorithm" />
@@ -279,9 +290,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P78_subsets" />
         <item itemvalue="Application.P401_readBinaryWatch" />
         <item itemvalue="Application.P784_letterCasePermutation" />
-        <item itemvalue="Application.P78_subsets" />
         <item itemvalue="Application.P1004_longestOnes" />
         <item itemvalue="Application.P146_LRU" />
       </list>
@@ -306,14 +317,8 @@
       <workItem from="1565926262397" duration="48144000" />
       <workItem from="1566202936620" duration="22310000" />
       <workItem from="1566297576175" duration="22929000" />
-      <workItem from="1566462257479" duration="34458000" />
-    </task>
-    <task id="LOCAL-00002" summary="矩形覆盖">
-      <created>1564924999634</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1564924999634</updated>
+      <workItem from="1566462257479" duration="36712000" />
+      <workItem from="1566643617439" duration="850000" />
     </task>
     <task id="LOCAL-00003" summary="旋转数组的最小数字">
       <created>1564926416506</created>
@@ -651,17 +656,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566617723786</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="P.401 二进制手表">
+      <created>1566625150346</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1566625150346</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="332784000" />
+    <option name="totallyTimeSpent" value="335888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.19473007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.19730078" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -696,7 +708,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="29. 最小的k个数" />
     <MESSAGE value="30. 最大的子序列的和" />
     <MESSAGE value="303. 快速求数组的任意 i~j 项之和" />
     <MESSAGE value="121. 买卖股票的最佳时间 k = 1" />
@@ -721,7 +732,8 @@
     <MESSAGE value="P.213 环形偷东西" />
     <MESSAGE value="P.337 树形偷东西" />
     <MESSAGE value="P.784 大小写字母全排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="P.784 大小写字母全排列" />
+    <MESSAGE value="P.401 二进制手表" />
+    <option name="LAST_COMMIT_MESSAGE" value="P.401 二进制手表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -743,12 +755,6 @@
           <line>19</line>
           <properties />
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1157,17 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#414#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40">
@@ -1181,20 +1176,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="1320">
           <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        <state relative-caret-position="230">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2210#2218#0" expanded="true" />
           </folding>
         </state>
       </provider>
