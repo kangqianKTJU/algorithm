@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Common/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/LinkedNode/P141_hasCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -104,11 +103,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P141_hasCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="406">
+              <caret line="24" column="28" selection-start-line="18" selection-start-column="7" selection-end-line="27" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/DP/P121_maxProfit.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P53_maxSubArray.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P338_CountBitsBetweenN.java" />
@@ -208,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Common/LinkedNode/P141_hasCycle.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Common/ListNode.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/LinkedNode/P141_hasCycle.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java" />
       </list>
     </option>
   </component>
@@ -271,7 +282,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566896602524" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566897901958" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -392,14 +403,7 @@
       <workItem from="1566202936620" duration="22310000" />
       <workItem from="1566297576175" duration="22929000" />
       <workItem from="1566462257479" duration="36712000" />
-      <workItem from="1566643617439" duration="15881000" />
-    </task>
-    <task id="LOCAL-00008" summary="获取链表的倒数第k个节点">
-      <created>1565405514221</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1565405514221</updated>
+      <workItem from="1566643617439" duration="17702000" />
     </task>
     <task id="LOCAL-00009" summary="调整数组是奇数位于偶数的前面">
       <created>1565405606472</created>
@@ -737,11 +741,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566895277738</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="P.141 环形链表1">
+      <created>1566896906881</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1566896906881</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350919000" />
+    <option name="totallyTimeSpent" value="352740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -782,7 +793,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="338. 指定n范围内的所有数包含1的总和" />
     <MESSAGE value="198. 小偷盗窃钱财最大" />
     <MESSAGE value="771. 是否含有珠宝" />
     <MESSAGE value="1046. 最后一个石头重量" />
@@ -807,7 +817,8 @@
     <MESSAGE value="P.46 全排列" />
     <MESSAGE value="P.94 二叉树中序遍历" />
     <MESSAGE value="P.289 生存游戏（元胞自动机）" />
-    <option name="LAST_COMMIT_MESSAGE" value="P.289 生存游戏（元胞自动机）" />
+    <MESSAGE value="P.141 环形链表1" />
+    <option name="LAST_COMMIT_MESSAGE" value="P.141 环形链表1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -834,7 +845,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Common.java" />
     <entry file="file://$PROJECT_DIR$/src/nowCoder/IsSymmetrical_58.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1270,8 +1280,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P141_hasCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="406">
+          <caret line="24" column="28" selection-start-line="18" selection-start-column="7" selection-end-line="27" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
