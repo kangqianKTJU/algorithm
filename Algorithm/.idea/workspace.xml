@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="362">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -282,7 +282,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566897901958" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566904550348" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -403,14 +403,7 @@
       <workItem from="1566202936620" duration="22310000" />
       <workItem from="1566297576175" duration="22929000" />
       <workItem from="1566462257479" duration="36712000" />
-      <workItem from="1566643617439" duration="17702000" />
-    </task>
-    <task id="LOCAL-00009" summary="调整数组是奇数位于偶数的前面">
-      <created>1565405606472</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1565405606472</updated>
+      <workItem from="1566643617439" duration="19002000" />
     </task>
     <task id="LOCAL-00010" summary="获取链表的倒数第k个节点">
       <created>1565405649642</created>
@@ -748,11 +741,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566896906881</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="P.142 环形链表2">
+      <created>1566901888319</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1566901888319</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352740000" />
+    <option name="totallyTimeSpent" value="354040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -793,7 +793,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="198. 小偷盗窃钱财最大" />
     <MESSAGE value="771. 是否含有珠宝" />
     <MESSAGE value="1046. 最后一个石头重量" />
     <MESSAGE value="134. 能否环绕所有加油站" />
@@ -818,7 +817,8 @@
     <MESSAGE value="P.94 二叉树中序遍历" />
     <MESSAGE value="P.289 生存游戏（元胞自动机）" />
     <MESSAGE value="P.141 环形链表1" />
-    <option name="LAST_COMMIT_MESSAGE" value="P.141 环形链表1" />
+    <MESSAGE value="P.142 环形链表2" />
+    <option name="LAST_COMMIT_MESSAGE" value="P.142 环形链表2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1290,8 +1290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        <state relative-caret-position="362">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

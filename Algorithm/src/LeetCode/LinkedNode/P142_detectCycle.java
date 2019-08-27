@@ -32,7 +32,7 @@ public class P142_detectCycle {
         return null;
     }
 
-    // 2. 快慢指针
+    // 2. 快慢指针（Floyd算法）
     // 先通过快慢指针找到相遇点，再将慢指针指到节点，和块指针同时走，两者相遇的点就是环的入口节点
     public ListNode detectCycle1(ListNode head){
         ListNode slow = head;
