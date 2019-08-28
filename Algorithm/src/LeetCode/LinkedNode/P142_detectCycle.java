@@ -2,6 +2,7 @@ package LeetCode.LinkedNode;
 
 import LeetCode.Common.ListNode;
 
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -51,5 +52,9 @@ public class P142_detectCycle {
             }
         }
         return null;
+    }
+
+    public static void main(String[] args) {
+
     }
 }
