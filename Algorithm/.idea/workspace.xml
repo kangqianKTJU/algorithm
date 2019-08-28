@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Arrays/P238_productExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/LinkedNode/P148_sortList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Common/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Common/ListNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,18 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P46_permute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Tree/P94_inorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +102,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P238_productExceptSelf.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
               <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P148_sortList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -138,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Common/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="220">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -167,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/DP/P70_ClimbStairs.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/DP/P338_CountBitsBetweenN.java" />
         <option value="$PROJECT_DIR$/src/Interview/EasyNet/NiuNiuFindWork.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DP/P198_rob.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Hash/P771_numJewelsInStones.java" />
@@ -213,11 +209,13 @@
         <option value="$PROJECT_DIR$/src/LeetCode/Tree/P94_inorderTraversal.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Arrays/P289_gameOfLife.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Common/LinkedNode/P141_hasCycle.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode/Common/ListNode.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/LinkedNode/P141_hasCycle.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Arrays/P48_rotate.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Arrays/P238_productExceptSelf.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Common/P148_sortList.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Common/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/LinkedNode/P148_sortList.java" />
       </list>
     </option>
   </component>
@@ -227,7 +225,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="876" />
@@ -263,7 +261,22 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="ListNode" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedNode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,7 +287,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566988054200" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566995292772" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,7 +305,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P48_rotate">
+  <component name="RunManager" selected="Application.P148_sortList">
+    <configuration name="P148_sortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.LinkedNode.P148_sortList" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.LinkedNode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P22_generateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.BackTrace.P22_generateParenthesis" />
       <module name="Algorithm" />
@@ -345,33 +371,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P78_subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.BackTrace.P78_subsets" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.BackTrace.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.P78_subsets" />
       <item itemvalue="Application.P22_generateParenthesis" />
       <item itemvalue="Application.P46_permute" />
       <item itemvalue="Application.P289_gameOfLife" />
       <item itemvalue="Application.P48_rotate" />
+      <item itemvalue="Application.P148_sortList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P148_sortList" />
         <item itemvalue="Application.P48_rotate" />
         <item itemvalue="Application.P289_gameOfLife" />
         <item itemvalue="Application.P46_permute" />
         <item itemvalue="Application.P22_generateParenthesis" />
-        <item itemvalue="Application.P78_subsets" />
       </list>
     </recent_temporary>
   </component>
@@ -398,14 +411,7 @@
       <workItem from="1566643617439" duration="27913000" />
       <workItem from="1566965687633" duration="2068000" />
       <workItem from="1566977312576" duration="1448000" />
-      <workItem from="1566986053292" duration="2461000" />
-    </task>
-    <task id="LOCAL-00013" summary="合并两个排序的链表">
-      <created>1565415713894</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1565415713894</updated>
+      <workItem from="1566986053292" duration="6336000" />
     </task>
     <task id="LOCAL-00014" summary="树的子结构">
       <created>1565418332070</created>
@@ -743,17 +749,24 @@
       <option name="project" value="LOCAL" />
       <updated>1566966317032</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="P.238 数组其他元素乘积">
+      <created>1566990907246</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1566990907247</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="368928000" />
+    <option name="totallyTimeSpent" value="372803000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="0" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.20822622" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.20822622" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -762,7 +775,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.11904762" side_tool="true" weight="0.25385603" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3822342" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47106326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5841184" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -788,7 +801,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1046. 最后一个石头重量" />
     <MESSAGE value="134. 能否环绕所有加油站" />
     <MESSAGE value="101. 对称二叉树判断" />
     <MESSAGE value="142. 接雨水" />
@@ -813,7 +825,8 @@
     <MESSAGE value="P.141 环形链表1" />
     <MESSAGE value="P.142 环形链表2" />
     <MESSAGE value="P.48 旋转数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="P.48 旋转数组" />
+    <MESSAGE value="P.238 数组其他元素乘积" />
+    <option name="LAST_COMMIT_MESSAGE" value="P.238 数组其他元素乘积" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -840,16 +853,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Tree/P637_averageOfLevels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/BackTrace/P51_solveNQueens.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1280,17 +1283,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Common/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P238_productExceptSelf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Common/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P148_sortList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
