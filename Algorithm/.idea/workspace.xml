@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Tree/P105_buildTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPractice/LevelTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPractice/LevelTraverse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,11 +95,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterviewPractice/LevelTraverse.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Tree/P105_buildTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/Greedy/P1046_lastStoneWeight.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Greedy/P134_canCompleteCircuit.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Common/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/DFS/P101_isSymmetric.java" />
@@ -203,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/InterviewPractice/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/InterviewPractice/FindFiles.java" />
         <option value="$PROJECT_DIR$/src/InterviewPractice/LevelTraverse.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode/Tree/P105_buildTree.java" />
       </list>
     </option>
   </component>
@@ -243,6 +255,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="InterviewPractice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -252,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567044829960" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567046724920" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -270,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LevelTraverse">
+  <component name="RunManager" selected="Application.P105_buildTree">
     <configuration name="FindFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterviewPractice.FindFiles" />
       <module name="Algorithm" />
@@ -297,12 +322,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P148_sortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.LinkedNode.P148_sortList" />
+    <configuration name="P105_buildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Tree.P105_buildTree" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.LinkedNode.*" />
+          <option name="PATTERN" value="LeetCode.Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P48_rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Arrays.P48_rotate" />
+    <configuration name="P148_sortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.LinkedNode.P148_sortList" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.Arrays.*" />
+          <option name="PATTERN" value="LeetCode.LinkedNode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,19 +362,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P48_rotate" />
       <item itemvalue="Application.P148_sortList" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.FindFiles" />
       <item itemvalue="Application.LevelTraverse" />
+      <item itemvalue="Application.P105_buildTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P105_buildTree" />
         <item itemvalue="Application.LevelTraverse" />
         <item itemvalue="Application.FindFiles" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.P148_sortList" />
-        <item itemvalue="Application.P48_rotate" />
       </list>
     </recent_temporary>
   </component>
@@ -376,14 +401,7 @@
       <workItem from="1566643617439" duration="27913000" />
       <workItem from="1566965687633" duration="2068000" />
       <workItem from="1566977312576" duration="1448000" />
-      <workItem from="1566986053292" duration="21244000" />
-    </task>
-    <task id="LOCAL-00017" summary="21. 是否是栈的入栈和出栈序列">
-      <created>1565443445143</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1565443445143</updated>
+      <workItem from="1566986053292" duration="23517000" />
     </task>
     <task id="LOCAL-00018" summary="22. 层序遍历二叉树（BFS）">
       <created>1565444508827</created>
@@ -721,17 +739,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567042099410</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="换行打印层序遍历的树">
+      <created>1567044905889</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1567044905890</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="387711000" />
+    <option name="totallyTimeSpent" value="389984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.20822622" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.13046272" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -740,7 +765,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.11904762" side_tool="true" weight="0.25385603" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.69448185" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31090176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5841184" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -766,7 +791,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="784. 大小写字母全排列" />
     <MESSAGE value="401. 二进制手表" />
     <MESSAGE value="79. 矩阵查找单词" />
     <MESSAGE value="26. 移除数组中重复的元素" />
@@ -791,7 +815,8 @@
     <MESSAGE value="P.148 排序链表" />
     <MESSAGE value="快速排序" />
     <MESSAGE value="列出目录下的所有文件及文件夹" />
-    <option name="LAST_COMMIT_MESSAGE" value="列出目录下的所有文件及文件夹" />
+    <MESSAGE value="换行打印层序遍历的树" />
+    <option name="LAST_COMMIT_MESSAGE" value="换行打印层序遍历的树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -818,13 +843,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Common/PrintUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Sort/P324_wiggleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -1264,7 +1282,17 @@
     <entry file="file://$PROJECT_DIR$/src/InterviewPractice/LevelTraverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Tree/P105_buildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
