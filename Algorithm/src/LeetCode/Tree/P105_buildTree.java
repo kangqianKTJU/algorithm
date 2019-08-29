@@ -4,6 +4,8 @@ import InterviewPractice.LevelTraverse;
 import LeetCode.Common.TreeNode;
 
 import javax.xml.transform.SourceLocator;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 根据一棵树的前序遍历与中序遍历构造二叉树。
@@ -45,18 +47,37 @@ public class P105_buildTree {
             }
         }
         int interval = index - lowIn;
-        TreeNode left = buildTree(preorder,lowPre + 1, lowPre + interval, inorder, lowIn, index - 1);
-        TreeNode right = buildTree(preorder, lowPre + interval + 1, highPre, inorder, index + 1, highIn);
-        head.left = left;
-        head.right = right;
+        head.left = buildTree(preorder,lowPre + 1, lowPre + interval, inorder, lowIn, index - 1);
+        head.right = buildTree(preorder, lowPre + interval + 1, highPre, inorder, index + 1, highIn);
         return head;
+    }
+
+
+    // 2. 使用Map提高查找根节点的速度
+    public TreeNode buildTree1(int[] preorder, int[] inorder) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for(int i = 0; i < preorder.length; i++){
+            map.put(inorder[i], i);
+        }
+        return buildTree1(preorder,0, preorder.length - 1, inorder, 0 , inorder.length - 1, map);
+    }
+
+    private TreeNode buildTree1(int[] preorder, int lowPre, int highPre, int[] inorder, int lowIn, int highIn, Map<Integer, Integer> map){
+        if(preorder == null || lowPre > highPre) return null;
+        TreeNode head = new TreeNode(preorder[lowPre]);
+        int index = map.get(head.val);
+        int interval = index - lowIn;
+        head.left = buildTree1(preorder,lowPre + 1, lowPre + interval, inorder, lowIn, index - 1, map);
+        head.right = buildTree1(preorder, lowPre + interval + 1, highPre, inorder, index + 1, highIn, map);
+        return head;
+
     }
 
     public static void main(String[] args) {
         int[] preOrder = new int[]{3,9,20,15,7};
         int[] intsOrder = new int[]{9,3,15,20,7};
         P105_buildTree solver = new P105_buildTree();
-        TreeNode head = solver.buildTree(preOrder, intsOrder);
+        TreeNode head = solver.buildTree1(preOrder, intsOrder);
         LevelTraverse traverse = new LevelTraverse();
         traverse.levelTraverse(head);
     }

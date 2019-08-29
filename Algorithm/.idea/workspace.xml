@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Tree/P105_buildTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Tree/P105_buildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Tree/P105_buildTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/Tree/P105_buildTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+            <state relative-caret-position="197">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567046724920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567048975404" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -401,14 +401,7 @@
       <workItem from="1566643617439" duration="27913000" />
       <workItem from="1566965687633" duration="2068000" />
       <workItem from="1566977312576" duration="1448000" />
-      <workItem from="1566986053292" duration="23517000" />
-    </task>
-    <task id="LOCAL-00018" summary="22. 层序遍历二叉树（BFS）">
-      <created>1565444508827</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1565444508827</updated>
+      <workItem from="1566986053292" duration="25386000" />
     </task>
     <task id="LOCAL-00019" summary="25. 复制链表的复制">
       <created>1565457100695</created>
@@ -746,11 +739,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567044905890</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="P.105 构建二叉树">
+      <created>1567047141584</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1567047141584</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389984000" />
+    <option name="totallyTimeSpent" value="391853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1616" height="876" extended-state="0" />
@@ -765,7 +765,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.11904762" side_tool="true" weight="0.25385603" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31090176" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31090176" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5841184" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -791,7 +791,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="401. 二进制手表" />
     <MESSAGE value="79. 矩阵查找单词" />
     <MESSAGE value="26. 移除数组中重复的元素" />
     <MESSAGE value="122. 买卖股票2" />
@@ -816,7 +815,8 @@
     <MESSAGE value="快速排序" />
     <MESSAGE value="列出目录下的所有文件及文件夹" />
     <MESSAGE value="换行打印层序遍历的树" />
-    <option name="LAST_COMMIT_MESSAGE" value="换行打印层序遍历的树" />
+    <MESSAGE value="P.105 构建二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="P.105 构建二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1291,8 +1291,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Tree/P105_buildTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
+        <state relative-caret-position="197">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
