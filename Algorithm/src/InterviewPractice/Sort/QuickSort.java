@@ -1,4 +1,4 @@
-package InterviewPractice;
+package InterviewPractice.Sort;
 
 public class QuickSort<E extends Comparable> {
     public void quickSort(E[] data){
@@ -18,13 +18,13 @@ public class QuickSort<E extends Comparable> {
         int i = low;
         int j = high;
         while(i < j){
-            while(data[j].compareTo(target) > 0){
+            while(i < j && data[j].compareTo(target) >= 0){
                 j--;
             }
-            while(data[i].compareTo(target) < 0){
+            swap(data, i, j);
+            while(i < j && data[i].compareTo(target) <= 0){
                 i++;
             }
-            if( i < j && data[i] == data[j] ) i++;
             swap(data, i, j);
         }
         return i;
