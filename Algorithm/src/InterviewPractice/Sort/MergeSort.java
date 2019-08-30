@@ -3,6 +3,8 @@ package InterviewPractice.Sort;
 public class MergeSort<E extends Comparable> {
 
     private static Comparable[] temp;
+
+    // 1. 自顶向下的归并排序
     public void mergeSort(E[] data){
         temp = new Comparable[data.length];
         mergeSort(data, 0, data.length - 1);
@@ -34,8 +36,6 @@ public class MergeSort<E extends Comparable> {
                 data[k] = (E)temp[j++];
             }
         }
-
-
     }
 
     public static void main(String[] args) {
