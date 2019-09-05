@@ -1,6 +1,5 @@
-package LeetCode;
+package LeetCode.SlidingWindow;
 
-import java.util.Deque;
 import java.util.LinkedList;
 
 /**
@@ -74,47 +73,43 @@ public class P862_ShortestSubarrayWithSumOfK {
     }
 
 
-
     // 3. 队列法
     //  使用队列储存要遍历的信息
     public int shortestSubarray2(int[] A, int K) {
-        int N = A.length;
-
-        int[] Sum = new int[N + 1];
-        for(int i = 1; i < Sum.length; i++){
-            Sum[i] = Sum[i - 1] + A[i -1];
+        int n = A.length;
+        int[] sum = new int[n + 1];
+        for(int i = 1; i <= n ; i++){
+            sum[i] = sum[i - 1] + A[i - 1];
         }
 
-        int min = N + 1;
+        LinkedList<Integer> deQueue = new LinkedList<>();
+        int min = Integer.MAX_VALUE;
 
-        Deque<Integer> queue = new LinkedList<Integer>();
-
-        for(int y = 0; y < N + 1; y++){
-            while(!queue.isEmpty() && Sum[y] <= Sum[queue.getLast()]){
-                queue.pollLast();
+        for(int y = 0; y < n + 1; y++){
+            while(!deQueue.isEmpty() && sum[y] <= sum[deQueue.getLast()]){
+                deQueue.pollLast();
             }
-            while(!queue.isEmpty() && Sum[y] - Sum[queue.getFirst()] >= K){
-                min = Math.min(min, y - queue.removeFirst());
+            while(!deQueue.isEmpty() && sum[y] - sum[deQueue.peekFirst()] >= K){
+                min = Math.min(min, y - deQueue.pollFirst());
             }
-
-            queue.addLast(y);
+            deQueue.addLast(y);
         }
-
-        return min > N ? -1 : min;
+        return min > n + 1 ? -1:min;
     }
 
 
-        private static boolean slideWindow(int[] A, int size) {
-        if (A == null || A.length == 0 || A.length < size || size <= 0) return false;
+//    private static boolean slideWindow(int[] A, int size) {
+//        if (A == null || A.length == 0 || A.length < size || size <= 0) return false;
+//
+//        return false;
+//    }
 
-        return false;
-    }
 
     public static void main(String[] args) {
         P862_ShortestSubarrayWithSumOfK solution = new P862_ShortestSubarrayWithSumOfK();
-        int A[] = {12,313,131,312,312,-323,232};
-        int k = 5006414;
+        int A[] = {2,-1,2};
+        int k = 3;
 
-        System.out.println(solution.shortestSubarray1(A, k));
+        System.out.println(solution.shortestSubarray2(A, k));
     }
 }
