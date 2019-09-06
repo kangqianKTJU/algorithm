@@ -83,9 +83,32 @@ public class P287_findDuplicate {
         }
     }
 
+    // 4. 二分法
+    public int findDuplicate3(int[] nums){
+        int len = nums.length;
+        int low = 0;
+        int high = nums.length - 1;
+        while(low < high){
+            int small = 0;
+            int mid = low + (high - low) / 2;
+            for(int i = 0; i < len; i++){
+                if(nums[i] <= mid){
+                    small++;
+                }
+            }
+            if(small > mid){
+                high = mid;
+            }else{
+                low = mid + 1;
+            }
+        }
+        return low;
+    }
+
+
     public static void main(String[] args) {
         P287_findDuplicate solver = new P287_findDuplicate();
-        int[] nums = new int[]{2,2,2,2,2,2,2,2,2,2};
-        System.out.println(solver.findDuplicate2(nums));
+        int[] nums = new int[]{1,3,4,4,2};
+        System.out.println(solver.findDuplicate3(nums));
     }
 }
