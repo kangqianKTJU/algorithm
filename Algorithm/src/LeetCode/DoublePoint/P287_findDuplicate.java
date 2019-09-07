@@ -84,6 +84,7 @@ public class P287_findDuplicate {
     }
 
     // 4. 二分法
+    //https://leetcode-cn.com/problems/find-the-duplicate-number/solution/er-fen-fa-si-lu-ji-dai-ma-python-by-liweiwei1419/
     public int findDuplicate3(int[] nums){
         int len = nums.length;
         int low = 0;
