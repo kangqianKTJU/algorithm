@@ -2,77 +2,58 @@ package LeetCode.DP;
 
 public class P10_isMatch {
     public boolean isMatch(String s, String p) {
-        char[] chStr = s.toCharArray();
-        char[] pStr = p.toCharArray();
-        return isMatch(chStr, 0, chStr.length, pStr, 0, pStr.length);
+        if(p == null || s == null) return false;
+        return matchCore(s.toCharArray(), 0, s.length() - 1, p.toCharArray(), 0, p.length() - 1);
     }
+    private boolean matchCore(char[] str, int lowS, int highS, char[] pattern, int lowP, int highP){
+        if(lowP > highP && lowS > highS) return true;
+        if(lowP > highP && lowS <= highS) return false;
+        if(lowP == highP){
+            if(lowS == highS && (str[lowS] == pattern[lowP] || pattern[lowP] == '.'))
+                return true;
+            else
+                return false;
+        }else{
 
-    private boolean isMatch(char[] chStr, int start1, int end1, char[] pStr, int start2, int end2) {
-        int s = start1;
-        int p = start2;
-
-        while (s < chStr.length && p < pStr.length) {
-            if (pStr[p] == '*') {
-
-                if (pStr[p - 1] == '.') {
-                    if (p + 1 == pStr.length) {
-                        return true;
-                    } else {
-                        while (s < chStr.length) {
-                            if (isMatch(chStr, s, end1, pStr, p + 1, end2)) {
-                                return true;
-                            }else{
-                                s++;
-                            }
-                        }
-                        return false;
-                    }
-                } else {
-                    if (p + 1 == pStr.length) {
-                        while (s < chStr.length && chStr[s] == pStr[p - 1]) {
-                            s++;
-                        }
-                        if (s == chStr.length) return true;
-                        else return false;
-                    } else if (isMatch(chStr, s, end1, pStr, p + 1, end2))
-                        return true;
-                    else if (pStr[p - 1] == chStr[s]) {
-                        while (s + 1 < chStr.length) {
-                            if (isMatch(chStr, s + 1, end1, pStr, p + 1, end2)) {
-                                return true;
-                            } else {
-                                s++;
-                            }
-                        }
-                    } else {
-                        return false;
-                    }
-                }
-
-            } else {
-                if (pStr[p] == '.' || chStr[s] == pStr[p]) {
-                    s++;
-                    p++;
-                } else {
-                    if (p + 1 < pStr.length && pStr[p + 1] == '*') {
-                        return p + 2 < pStr.length ? isMatch(chStr, s, end1, pStr, p + 2, end2) : false;
-                    } else {
-                        return false;
-                    }
+            if(pattern[lowP + 1] == '*'){
+                if(lowS <= highS && (str[lowS] == pattern[lowP] || pattern[lowP] == '.')){
+                    return matchCore(str, lowS, highS, pattern, lowP + 2, highP) ||
+                            matchCore(str, lowS+ 1, highS, pattern, lowP, highP) ||
+                            matchCore(str, lowS + 1, highS, pattern, lowP + 2, highP);
+                }else{
+                    return matchCore(str, lowS, highS, pattern, lowP + 2, highP);
                 }
             }
+
+            if(lowS <= highS && (str[lowS] == pattern[lowP] || pattern[lowP] == '.')){
+                return matchCore(str, lowS + 1, highS, pattern, lowP + 1, highP);
+            }else{
+                return false;
+            }
         }
-        if (s == chStr.length && p == pStr.length || (p + 1 == pStr.length - 1 && pStr[p + 1] == '*')) {
-            return true;
-        } else {
-            return false;
+    }
+
+    public boolean isMatch1(String s, String p) {
+        if(p == null || s == null) return false;
+        return isMatch(s.toCharArray(), 0, s.length() - 1, p.toCharArray(), 0, p.length() - 1);
+    }
+    private boolean isMatch(char[] str, int lowS, int highS, char[] pattern, int lowP, int highP){
+        if(lowP > highP) return lowS > highS;
+
+        boolean first_match = (lowS <= highS  && (pattern[lowS] == str[lowS] || pattern[lowP] == '.'));
+
+        if(lowP < highP && pattern[lowP + 1] == '*'){
+            return (isMatch(str ,lowS, highS, pattern, lowP + 2, highP))
+                    || (first_match && isMatch(str,lowS + 1, highS,pattern, lowP, highP));
+        }else{
+            return first_match && isMatch(str, lowS + 1, highS, pattern, lowP + 1, highP);
         }
     }
 
     public static void main(String[] args) {
         P10_isMatch solution = new P10_isMatch();
-        String s = "aab";
-        String p = "c*a*b";
-        System.out.println(solution.isMatch(s, p));
+        String s = "ab";
+        String p = ".*c";
+        System.out.println(solution.isMatch1(s, p));
     }
 }
