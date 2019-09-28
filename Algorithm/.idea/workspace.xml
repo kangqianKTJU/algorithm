@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/nowCodeAlgorithm/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowCodeAlgorithm/ArrayStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,18 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode/DP/P386_lexicalOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="25" column="13" selection-start-line="22" selection-start-column="12" selection-end-line="25" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterviewPractice/Sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,11 +78,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="296">
+              <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/ArrayStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P78_subsets.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P22_generateParenthesis.java" />
@@ -220,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/nowCodeAlgorithm/NetherlandFlag.java" />
         <option value="$PROJECT_DIR$/src/nowCodeAlgorithm/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/nowCodeAlgorithm/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/nowCodeAlgorithm/ArrayStack.java" />
       </list>
     </option>
   </component>
@@ -269,7 +269,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569657741307" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569683194998" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -287,7 +287,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.ArrayStack">
+    <configuration name="ArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nowCodeAlgorithm.ArrayStack" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nowCodeAlgorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nowCodeAlgorithm.GetMax" />
       <module name="Algorithm" />
@@ -327,19 +340,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P386_lexicalOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.DP.P386_lexicalOrder" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nowCodeAlgorithm.QuickSort" />
       <module name="Algorithm" />
@@ -354,19 +354,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P386_lexicalOrder" />
       <item itemvalue="Application.P215_findKthLargest" />
       <item itemvalue="Application.GetMax" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.ArrayStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayStack" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.GetMax" />
         <item itemvalue="Application.P215_findKthLargest" />
-        <item itemvalue="Application.P386_lexicalOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -394,14 +394,7 @@
       <workItem from="1566965687633" duration="2068000" />
       <workItem from="1566977312576" duration="1448000" />
       <workItem from="1566986053292" duration="32246000" />
-      <workItem from="1567067798746" duration="125189000" />
-    </task>
-    <task id="LOCAL-00033" summary="771. 是否含有珠宝">
-      <created>1565713287646</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1565713287646</updated>
+      <workItem from="1567067798746" duration="126337000" />
     </task>
     <task id="LOCAL-00034" summary="1046. 最后一个石头重量">
       <created>1565749287146</created>
@@ -739,11 +732,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569652935003</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="堆排序">
+      <created>1569657759956</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1569657759957</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523902000" />
+    <option name="totallyTimeSpent" value="525050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -808,7 +808,6 @@
     <MESSAGE value="换行打印层序遍历的树" />
     <MESSAGE value="P.105 构建二叉树" />
     <MESSAGE value="归并排序" />
-    <MESSAGE value="堆排序" />
     <MESSAGE value="P.862 和至少为k的最短子数组" />
     <MESSAGE value="P.287 寻找重复数" />
     <MESSAGE value="P.322 找零钱" />
@@ -818,7 +817,8 @@
     <MESSAGE value="递归求最大值" />
     <MESSAGE value="荷兰国旗问题" />
     <MESSAGE value="快速排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="快速排序" />
+    <MESSAGE value="堆排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="堆排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -905,16 +905,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P141_hasCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="28" selection-start-line="18" selection-start-column="7" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/LinkedNode/P142_detectCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1144">
@@ -1351,8 +1341,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="296">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
