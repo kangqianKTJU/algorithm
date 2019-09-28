@@ -9,8 +9,14 @@ public class ArrayStack {
     private int[] array = null;
 
     public ArrayStack(int capacity){
+        if(capacity < 0) throw new RuntimeException("illegal capacity");
         array = new int[capacity];
         this.capacity = capacity;
+    }
+
+    public int peek(){
+        if(size == 0) throw new EmptyStackException();
+        return array[size];
     }
 
     public void push(int num){
