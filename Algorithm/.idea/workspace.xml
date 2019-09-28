@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4087cad-069c-4f55-b5b5-457f61681020" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/DP/P386_lexicalOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Sort/P215_findKthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowCodeAlgorithm/GetMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nowCodeAlgorithm/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/nowCodeAlgorithm/NetherlandFlag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterviewPractice/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterviewPractice/Sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nowCodeAlgorithm/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nowCodeAlgorithm/MergeSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,11 +89,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="286">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/NetherlandFlag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -106,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/GetMax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="330">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#94#95#0" expanded="true" />
                 <element signature="e#155#156#0" expanded="true" />
@@ -125,15 +129,6 @@
                 <element signature="e#108#109#0" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/util/Pair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -173,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/DP/P279_numSquares.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/Tree/P108_sortedArrayToBST.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P784_letterCasePermutation.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/BackTrace/P401_readBinaryWatch.java" />
@@ -224,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/nowCodeAlgorithm/GetMax.java" />
         <option value="$PROJECT_DIR$/src/nowCodeAlgorithm/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/nowCodeAlgorithm/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/nowCodeAlgorithm/NetherlandFlag.java" />
       </list>
     </option>
   </component>
@@ -273,7 +268,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569643465963" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569645316290" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -398,14 +393,7 @@
       <workItem from="1566965687633" duration="2068000" />
       <workItem from="1566977312576" duration="1448000" />
       <workItem from="1566986053292" duration="32246000" />
-      <workItem from="1567067798746" duration="116305000" />
-    </task>
-    <task id="LOCAL-00030" summary="70. 爬楼梯">
-      <created>1565575295105</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1565575295105</updated>
+      <workItem from="1567067798746" duration="117053000" />
     </task>
     <task id="LOCAL-00031" summary="338. 指定n范围内的所有数包含1的总和">
       <created>1565709140847</created>
@@ -743,11 +731,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569134873837</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="递归求最大值">
+      <created>1569643502089</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1569643502089</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515018000" />
+    <option name="totallyTimeSpent" value="515766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -762,7 +757,7 @@
     <frame x="-8" y="0" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.1844473" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88095236" visible="true" weight="0.1844473" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.25385603" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -797,7 +792,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="P.337 树形偷东西" />
     <MESSAGE value="P.784 大小写字母全排列" />
     <MESSAGE value="P.401 二进制手表" />
     <MESSAGE value="P.78 子集" />
@@ -822,7 +816,8 @@
     <MESSAGE value="P.18 四数之和" />
     <MESSAGE value="P.39 最大结合和" />
     <MESSAGE value="P.209 长度最小的子数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="P.209 长度最小的子数组" />
+    <MESSAGE value="递归求最大值" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归求最大值" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -903,16 +898,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode/Tree/P94_inorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/Arrays/P289_gameOfLife.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1328,17 +1313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/GetMax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1346,10 +1320,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/GetMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nowCodeAlgorithm/NetherlandFlag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
