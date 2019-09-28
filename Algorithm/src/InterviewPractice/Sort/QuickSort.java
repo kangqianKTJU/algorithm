@@ -10,7 +10,6 @@ public class QuickSort<E extends Comparable> {
         int mid = partition(data, low, high);
         quickSort(data, low, mid - 1);
         quickSort(data, mid + 1, high);
-
     }
 
     private int partition(E[] data, int low, int high){
